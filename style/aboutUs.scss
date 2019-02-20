@@ -1,0 +1,264 @@
+*{
+  padding:0 ;
+  margin: 0;
+  user-select: none;
+  //overflow: hidden;
+  //width: 100%;
+}
+$backgroundColor:#eeeeee;
+$mainFontColor:#434242;
+%mainFont{
+  font-size: 14px;
+}
+@at-root .aboutUs-container{
+  overflow: hidden;
+  .container_right{
+    position: fixed;
+    right:10px;
+    top:350px;
+    width: 60px;
+    height: 246px;
+    z-index: 99999;
+    .comments{
+      height: 60px;
+      position: relative;
+      border: 1px solid #2597ba;
+      width: 100%;
+      margin-bottom: 4px;
+      background: #ffffff;
+      .rightLogo{
+        width: 100%;
+        height: 60px;
+        display: block;
+        text-align: center;
+        line-height: 60px;
+        margin-top: 11px;
+        cursor: pointer;
+      }
+      .phone{
+        position: absolute;
+        right:60px;
+        width: 200px;
+        color:#2597ba;
+        border:1px solid #2597ba;
+        border-right: none;
+        text-align: center;
+        line-height: 60px;
+        top:-1px;
+        background: #fff;
+        display: none;
+      }
+      .two-code{
+        background: #fff;
+        right:60px;
+        top:-67px;
+        width: 122px;
+        height: 126px;
+        text-align: center;
+        margin-right: 7px;
+        border: 1px solid #2597ba;
+        position: absolute;
+        display: none;
+        img{
+          margin-top: 10px;
+        }
+      }
+
+    }
+    .container_right1:hover>.phone{
+      display: block;
+    }
+    .container_right2:hover>.two-code{
+      display: block;
+    }
+    .container_right4{
+      display: none;
+    }
+  }
+}
+@at-root .header{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  z-index: 99999;
+  .PClogo{
+    position: absolute;
+    left: 352px;
+    top:10px;
+  }
+  .wrap{
+    position: absolute;
+    left:865px;
+    .wrap_box{
+      height: 40px;
+      li{
+        float:left ;
+        a{text-decoration:none; }
+      }
+      .header-nav{
+        float: left;
+        width: 106px;
+        position: relative;
+        &:hover>.navlist{
+          display: block;
+        }
+        a{
+          display: block;
+          width: 106px;
+          height: 40px;
+          color: #ffffff;
+          text-decoration: none;
+        }
+        .navlist{
+          width:148px;
+          margin-left: -42px;
+          display: none;
+          margin-top: 20px;
+          li{
+            text-align: center;
+            height: 35px;
+            line-height: 35px;
+            background: #b7dbe6;
+            &:hover{
+              background: #2597ba;
+            }
+            a{
+              width: 148px;
+              display: inline-block;
+              color:rgb(83,83,83);
+            }
+          }
+        }
+      }
+      .f2{
+        width: 108px !important;
+        a{
+          width: 108px;
+          height: 40px;
+        }
+      }
+
+    }
+  }
+}
+@at-root .aboutUs-nav{
+  margin-top: -5px;
+  overflow: hidden;
+  ul{
+    width: 100%;
+    height: 60px;
+    padding-left: 355px;
+    line-height: 60px;
+    border-bottom: 1px solid #e1e1e1;
+    background: #ffffff;
+    li{
+      @extend %mainFont;
+      list-style: none;
+      float: left;
+      margin-right: 50px;
+      .try-out{
+        width:133px ;
+        height:60px ;
+        background: #2597ba;
+        margin-left: 645px;
+        text-align: center;
+        color: #ffffff;
+      }
+      a{
+        text-decoration: none;
+        color: $mainFontColor;
+      }
+    }
+  }
+}
+@at-root .companyIntroduction{
+  padding-bottom: 100px;
+  display: block;
+  background: $backgroundColor;
+  @extend %mainFont;
+  color: $mainFontColor;
+  hr{color:#9a9a9a; }
+  span{
+    font-weight: bold;
+  }
+  p{
+    margin-top: 35px;
+    line-height: 25px;
+  }
+  .company-profile{
+    width: 1202px;
+    margin-left:355px;
+    padding-top: 65px;
+  }
+  .business-process{
+    width: 1202px;
+    margin-left:355px;
+    padding-top: 88px;
+  }
+  .industry-events{
+    margin-left:355px;
+    margin-top: 88px;
+  }
+}
+@at-root .partners{
+  padding-bottom: 150px;
+  display: none;
+  @extend %mainFont;
+  color: $mainFontColor;
+  background: $backgroundColor;
+  hr{color:#9a9a9a;}
+  span{
+    font-weight: bold;
+  }
+  .strategic-cooperation{
+    width: 1202px;
+    padding-top: 65px;
+    margin-left: 355px;
+    p{
+      text-indent: 2rem;
+      margin-top: 35px;
+      line-height: 25px;
+    }
+    span{
+      display: inline-block;
+      padding-top: 45px;
+    }
+  }
+  .ali-yun{
+    p{
+      text-indent: 2rem;
+      margin-top: 35px;
+      line-height: 25px;
+    }
+    width: 1202px;
+    margin-top: 113px;
+    margin-left: 355px;
+    .include{
+      margin-top: 76px;
+      margin-bottom: 41px;
+      p{
+        margin-top: 5px;
+      }
+    }
+  }
+  .cooperative-partner{
+    width: 1202px;
+    margin-left: 355px;
+    .partner-img{
+      margin-top: 15px;
+      p{
+        text-indent: 2rem;
+        padding-top: 18px;
+        img{
+          width: 128px;
+          height: 45px;
+          margin-right: 10px;
+        }
+      }
+    }
+
+  }
+}

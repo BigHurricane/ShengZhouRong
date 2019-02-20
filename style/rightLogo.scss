@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+}
+.container_right{
+  position: fixed;
+  right:10px;
+  top:350px;
+  width: 60px;
+  height: 246px;
+  z-index: 99999;
+  background: pink;
+}

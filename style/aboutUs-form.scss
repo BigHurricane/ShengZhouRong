@@ -1,0 +1,217 @@
+*{
+  margin:0;
+  padding: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  list-style-type: none;
+  outline: none;
+}
+.pop-up-holder {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  min-height: 100vh;
+  background: black;
+  opacity: 0.6;
+}
+
+.holder1{
+  width:100vw;
+  height:100vh;
+  //display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+  position:absolute ;
+  top:0;
+  left: 0;
+  display: none;
+
+}
+.container{
+  position: fixed;
+  display: inline-block;
+  width: 415px;
+  height: 561px;
+  background:#eaeaea;
+  border-radius: 6px;
+  top:200px;
+  left: 800px;
+
+  @at-root .x1,.x2,.x3,.x4{
+    position:absolute;
+    left:16px;
+    color:orange;
+  }
+  @at-root .x1{
+    top:79px;
+  }
+  @at-root .x2{
+    top:152px;
+  }
+  @at-root .x3{
+    top:226px;
+  }
+  @at-root .x4{
+    top:298px;
+  }
+  @at-root .down{
+    position: absolute;
+    left:370px;
+    top:300px;
+    z-index: 9999;
+    cursor:pointer;
+  }
+  @at-root .free,.direct{
+    position:absolute;
+    display: inline-block;
+  }
+  @at-root .free{
+    top: 25px;
+    left:27px;
+    color:#2597c5;
+    font-size: 17px;
+  }
+  @at-root .direct{
+    cursor:pointer;
+    left:363px;
+    top:18px;
+    color:#2597c5;
+    font-size:25px ;
+  }
+  @at-root .hide{
+    position:absolute;
+    left:38px;
+    font-size: 12px;
+    color:red;
+    @at-root .hide1{
+      top:49px;
+      display: none;
+    }
+    @at-root .hide2{
+      top:125px;
+      display: none;
+    }
+    @at-root .hide3{
+      top:200px;
+      display: none;
+    }
+  }
+  @at-root .list-container{
+    width:376px;
+    height:auto;
+    position: absolute;
+    left:30px;
+    top:63px;
+    @at-root .list-container >li{
+      width:inherit;
+      margin-bottom: 37px;
+    }
+    @at-root .list-container>li>input{
+      width:362px;
+      height:37px;
+      line-height: 37px;
+      border-radius: 6px;
+      font-size: 14px;
+      color:grey;
+      border:1px solid lightgrey;
+      padding-left: 42px;
+      box-sizing: border-box;
+      margin-left: -13px;
+      background-color: white;
+    @at-root .name{
+      background: url("../images/first_images/icon25.png") no-repeat left 7px  top 7px;
+     }
+    @at-root .yourPhone{
+      background: url("../images/first_images/icon26.png") no-repeat left 7px  top 7px ;
+    }
+      @at-root .company{
+        background:url("../images/first_images/icon27.png") no-repeat left 7px  top 7px ;
+      }
+      @at-root .service{
+        background: url("../images/first_images/icon24.png") no-repeat left 7px  top 7px ;
+      }
+    }
+  }
+  @at-root textarea{
+     position:absolute;
+     top:358px;
+     left:31px;
+     color:grey;
+     width:361px;
+     height:109px;
+     border:1px solid lightgrey;
+     border-radius: 6px;
+     vertical-align: middle;
+     padding-top: 10px;
+     padding-left: 10px;
+     box-sizing: border-box;
+    @at-root .need{
+      font-size: 14px;
+    }
+  }
+  @at-root .submit1{
+    position: absolute;
+    left:31px;
+    top:488px;
+    background: orange;
+    color:white;
+    text-align: center;
+    width:361px;
+    height:51px;
+    border:none;
+    &:active{
+      background: lightgrey;
+      border:none;
+      outline: none;
+    }
+  }
+  @at-root .mask{
+    position:absolute;
+    left:33px;
+    top:320px;
+    width:362px;
+    height:257px;
+    border:1px solid #2597ba;
+    padding-left: 43px;
+    padding-top: 17px;
+    box-sizing: border-box;
+    background: white;
+    display:none;
+  }
+  @at-root .listAll{
+  }
+  @at-root .listAll>li{
+    text-align: left;
+    margin-bottom: 20px;
+  }
+  @at-root .ck2{
+    display: inline-block;
+    text-align: left;
+    color:lightgrey;
+    font-size: 14px;
+  }
+  @at-root .ck1{
+    display: inline-block;
+    position: absolute;
+    left: 335px;
+  }
+  @at-root .li-fin{
+    margin-bottom: 0;
+  }
+  @at-root .btn2{
+    position:absolute;
+    left:140px;
+    top:223px;
+    color:white;
+    width:77px;
+    height: 27px;
+    line-height: 27px;
+    background:#2597ba;
+   &:active{
+     background: red;
+   }
+  }
+
+}

@@ -1,0 +1,331 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  user-select: none; }
+
+.clear_overflow {
+  overflow: hidden; }
+
+.caseContent {
+  text-align: center;
+  height: 756px;
+  background-color: #eeeeee;
+  position: relative; }
+
+.caseTitle {
+  padding-top: 72px; }
+
+.title {
+  font-size: 38px;
+  color: #2597ba; }
+
+.caseInfo {
+  margin-top: 38px; }
+
+.info {
+  font-size: 18px; }
+
+.slider--container {
+  margin: 50px auto 80px;
+  overflow: hidden;
+  width: 1200px;
+  height: 462px;
+  position: relative;
+  font-size: 0; }
+
+.slider--images {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 3600px;
+  height: inherit;
+  transition: left .6s ease-in-out; }
+
+.slider--images > ul {
+  height: 462px;
+  width: 3600px; }
+
+.slider--images > ul > li {
+  width: 1200px;
+  height: 462px;
+  float: left; }
+
+.slider--images > ul > li > img {
+  width: 1200px;
+  height: inherit; }
+
+.slider--prev, .slider--next {
+  position: absolute;
+  top: 225px;
+  width: 60px;
+  height: 60px;
+  z-index: 999; }
+
+.slider--prev {
+  left: -60px; }
+
+.slider--next {
+  right: -60px; }
+
+.slider--container:hover > .slider--prev {
+  left: -10px;
+  transition: left .6s ease-in-out; }
+
+.slider--container:hover > .slider--next {
+  right: -10px;
+  transition: right .6s ease-in-out; }
+
+.slider--pointer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  line-height: 50px;
+  text-align: center; }
+
+.slider--pointer__item {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #f2f2f3;
+  border-radius: 50%;
+  margin: 0 10px; }
+
+.titleCase {
+  position: absolute;
+  /*left: 70px;*/
+  top: 103px;
+  margin-left: 70px;
+  width: 400px;
+  height: 243px;
+  z-index: 99999; }
+
+.case {
+  top: 5px;
+  text-align: left;
+  color: #ffffff;
+  font-size: 25px; }
+
+.cont {
+  margin-top: 35px;
+  text-align: left;
+  width: 270px;
+  top: 5px;
+  color: #ffffff;
+  font-size: 18px; }
+
+.detailsBtn {
+  width: 187px;
+  height: 55px;
+  line-height: 55px;
+  text-align: inherit;
+  border: 1px solid white;
+  color: white;
+  margin-top: 50px;
+  font-size: 18px; }
+
+.detailsBtn:hover {
+  color: #ffffff;
+  background: #F59701;
+  border: #F59701; }
+
+.highLight {
+  background: deepskyblue; }
+
+.peopleIntroduce--container {
+  width: 100%;
+  background: url(../images/first_images/bg22.jpg) no-repeat center center;
+  height: 430px; }
+  .peopleIntroduce--container .peopleIntroduce__top {
+    padding: 60px 0px 45px; }
+    .peopleIntroduce--container .peopleIntroduce__top .peoples {
+      overflow: hidden;
+      width: 1200px;
+      margin: 0px auto;
+      list-style-type: none; }
+      .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item {
+        display: block;
+        width: 119px;
+        height: 220px;
+        float: left;
+        margin-right: 121px; }
+        .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item .item__headPortrait {
+          display: block;
+          width: 100%;
+          height: 119px;
+          border: 4px solid transparent;
+          border-radius: 50%; }
+          .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item .item__headPortrait:hover {
+            border: 4px solid #f19149;
+            border-radius: 50%; }
+        .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item .item__monicker, .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item .item__position, .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item .item__name {
+          display: block;
+          color: #fff;
+          margin: 10px 0px 5px 0px;
+          text-align: center; }
+      .peopleIntroduce--container .peopleIntroduce__top .peoples .peoples__item:hover span {
+        color: #f19149; }
+      .peopleIntroduce--container .peopleIntroduce__top .peoples .On img {
+        border: 4px solid #f19149;
+        border-radius: 50%; }
+      .peopleIntroduce--container .peopleIntroduce__top .peoples .On span {
+        color: #f19149; }
+  .peopleIntroduce--container .peopleIntroduce__bottom {
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+    margin-left: 300px; }
+    .peopleIntroduce--container .peopleIntroduce__bottom .leaderInfo {
+      width: 1200px;
+      color: #fff;
+      font-size: 18px;
+      line-height: 30px;
+      margin: 0 40px; }
+      .peopleIntroduce--container .peopleIntroduce__bottom .leaderInfo .leaderInfo__content {
+        width: 69%;
+        color: #f19149;
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0px auto; }
+
+.message--container {
+  width: 100%;
+  overflow: hidden;
+  padding-bottom: 105px;
+  margin-top: 60px; }
+  .message--container .message-con {
+    width: 1200px;
+    margin: 0px auto;
+    padding-top: 35px; }
+    .message--container .message-con .message__top {
+      width: 100%;
+      text-align: center;
+      padding-bottom: 22px; }
+      .message--container .message-con .message__top .top__title {
+        display: block;
+        font-size: 36px;
+        color: #2597ba;
+        line-height: 60px; }
+    .message--container .message-con .message__bottom {
+      width: 100%;
+      overflow: hidden; }
+      .message--container .message-con .message__bottom .bottom__left {
+        float: left;
+        width: 796px;
+        height: 196px; }
+        .message--container .message-con .message__bottom .bottom__left .left-Title {
+          overflow: hidden;
+          height: 20px; }
+          .message--container .message-con .message__bottom .bottom__left .left-Title .leftTitle__item {
+            float: left;
+            margin-right: 37px;
+            font-size: 16px;
+            color: #535353;
+            cursor: pointer; }
+          .message--container .message-con .message__bottom .bottom__left .left-Title .leftTitle__item:hover, .message--container .message-con .message__bottom .bottom__left .left-Title .toBlue {
+            color: #2597ba; }
+        .message--container .message-con .message__bottom .bottom__left .left-Info {
+          margin-top: 30px; }
+          .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content {
+            width: 100%;
+            display: none; }
+            .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item {
+              float: left;
+              width: 380px;
+              margin-right: 20px;
+              line-height: 48px;
+              font-size: 14px;
+              color: #535353; }
+              .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__dynamic {
+                color: #535353;
+                font-size: 14px;
+                text-decoration: none; }
+                .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__dynamic:hover {
+                  color: #2597ba; }
+              .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__time {
+                float: left; }
+                .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__time .boundary {
+                  display: block;
+                  width: 1px;
+                  height: 15px;
+                  background: #535353;
+                  float: right;
+                  margin: 17px 12px 0; }
+                  .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__time .boundary:hover {
+                    color: #2597ba; }
+              .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item .item__time:hover {
+                color: #2597ba; }
+            .message--container .message-con .message__bottom .bottom__left .left-Info .leftInfo__content .leftContent__item:hover {
+              color: #2597ba; }
+      .message--container .message-con .message__bottom .bottom__right {
+        float: right;
+        width: 375px;
+        height: 214px; }
+        .message--container .message-con .message__bottom .bottom__right .right-Activity {
+          display: block;
+          text-align: left;
+          color: #535353;
+          font-size: 16px;
+          line-height: 25px;
+          margin-bottom: 30px; }
+      .message--container .message-con .message__bottom .right-ActivityImg {
+        width: 375px;
+        height: 160px;
+        overflow: hidden; }
+      .message--container .message-con .message__bottom .right-ActivityImg img {
+        display: block;
+        width: 100%;
+        height: 160px;
+        transition: all 0.6s;
+        overflow: hidden; }
+      .message--container .message-con .message__bottom .right-ActivityImg img:hover {
+        transform: scale(1.1);
+        -webkit-transform: scale(1.1);
+        -moz-transform: scale(1.1);
+        -o-transform: scale(1.1); }
+      .message--container .message-con .message__bottom .bottom__more {
+        text-decoration: none;
+        display: block;
+        text-align: left;
+        font-size: 14px;
+        color: #535353;
+        margin-top: 30px;
+        clear: both; }
+        .message--container .message-con .message__bottom .bottom__more:hover {
+          color: #2597ba; }
+
+.partner--container {
+  width: 100%;
+  overflow: hidden;
+  background: #eee;
+  padding: 60px 0px 86px; }
+  .partner--container .partner-con {
+    width: 1200px;
+    margin: 0px auto; }
+    .partner--container .partner-con .cooperativePartner {
+      font-size: 36px;
+      color: #2597ba;
+      line-height: 60px;
+      display: block;
+      text-align: center;
+      padding-bottom: 46px; }
+    .partner--container .partner-con .trademark {
+      overflow: hidden; }
+      .partner--container .partner-con .trademark .trademark__item {
+        width: 113px;
+        float: left;
+        border: 2px solid transparent;
+        margin-right: 18px;
+        margin-bottom: 30px; }
+        .partner--container .partner-con .trademark .trademark__item .business {
+          display: block; }
+          .partner--container .partner-con .trademark .trademark__item .business .icon {
+            display: block;
+            width: 100%;
+            height: 38px; }
+      .partner--container .partner-con .trademark .trademark__item:hover {
+        border: 2px solid #2597ba; }
+
+/*# sourceMappingURL=jiafan.css.map */

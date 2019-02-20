@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0,0,0,0);
+}
+body{
+  height: 2000px;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+}
+
+.header{
+  position: fixed;
+  top:0;
+  left: 0;
+   width: 100%;
+  z-index: 9999;
+   height: 60px;
+   line-height: 60px;
+   margin: 0 auto;
+   .PClogo{
+     position: absolute;
+     margin-top: 10px;
+     left:352px ;
+     }
+  .nav{
+    position: absolute;
+    left: 747px;
+  }
+  }
+
+.sliderBox{
+  position: relative;
+  width: 100%;
+  height: 561px;
+  margin: 0 auto;
+  overflow: hidden;
+  .ulBox{
+    width: 3806px;
+    img{
+      float: left;
+    }
+  }
+  .pointerBox{
+    position: absolute;
+    bottom: 20px;
+    left: 935px;
+    li{
+      width: 15px;
+      height: 15px;
+      background: #ffffff;
+      float: left;
+      border-radius: 10px;
+      margin-right: 6px;
+      &.on{
+        background: darkgray;
+      }
+    }
+  }
+  .comment{
+    font-size: 80px;
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+    color: #ffffff;
+  }
+  .left{
+    position: absolute;
+    left: 60px;
+    top:233.5px;
+  }
+  .right{
+    position: absolute;
+    right: 60px;
+    top:233.5px;
+  }
+}
+
+.indexNews{
+  height: 35px;
+  line-height: 35px;
+  border-bottom: 1px solid #e8e8e8;
+  background: #f2f2f2;
+  overflow: hidden;
+  span{
+    margin-left: 352px;
+    vertical-align: middle;
+    line-height: 35px;
+  }
+  .newsBox{
+    width: 784px;
+    background: pink;
+    display: inline-block;
+    line-height: 35px;
+  }
+  a{
+    color: #434242;
+    margin-left:314px;
+  }
+}
+
+
